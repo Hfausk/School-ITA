@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+
+    }
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #FDEEEB;
+      color: black;
+    }
+      .left {
+        float: left;
+      }
+
+      p.solid {
+        border-style: solid
+      }
+
+      p.top{
+        margin: auto;
+      }
+
+      p.thick {
+        font-weight: bold;
+        border-width: 760px 600px;
+        margin: 0px;
+        height: 600px
+      }
+  </style>
+
+  <head>
+    <meta charset="utf-8">
+    <ul>
+      <li><a href="index.html">Hjem</a></li>
+      <li><a href="regi.Html">Registrering</a></li>
+      <li><a class="active" href="pålogg.Html">Pålogging</a></li>
+
+    </ul>
+    <title></title>
+
+
+  </head>
+  <body align="center">
+    <h2>Pålogging</h2>
+    <br>
+    <form action="unknown">
+      <label for="user">Username</label><br>
+      <input type="text" id="user" name="user" value="Username:"><br>
+      <label for="pword">Password</label><br>
+      <input type="text" id="Password" name="Password" value="Password:"><br>
+      <input type="submit" name="" value="Submit">
+    </form>
+
+
+
+
+
+
+
+
+  </body>
+</html>
