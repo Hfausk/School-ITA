@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 header{
@@ -41,3 +42,48 @@ section{
 
 
 }
+=======
+
+
+header{
+  background-color: red;
+  width: auto;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+body{
+margin-top: 0;
+margin: 0;
+padding: 0;
+}
+
+
+
+main{
+  width: 760px;
+  height: 600px;
+  padding: 10px;
+  border: 5px solid green;
+  margin:auto;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section{
+  width: 300px;
+  height: 200px;
+  background-color: green;
+  margin: auto;
+
+
+}
+>>>>>>> 633cc4733eab407302601c8bc0f2aa5542c50f4d
