@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<style>
+
+@media screen and (max-width:650px) {
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .yellow   {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+table  {
+    background-color: white;
+}
+
+section  {
+    height: fit-content;
+    margin: 0px;
+    border: 0px;
+}
+.yellow  {
+    background-color: orange;
+    height: fit-content;
+    margin: 0px;
+    border: 0px;
+    height: 290px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.yellow>div  {
+    margin: 50px;
+}
+
+.flex-container {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.flex-container>div  {
+    margin: 50px;
+
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+</style>
+
+<head>
+<ul>
+    <li><a href="main.html">Åssiden</a></li>
+    <li><a href="Om_IM">OM IM</a></li>
+    <li><a href="2ITA.html">2ITA</a></li>
+</ul>
+<section class="flex-container">
+    <div>
+        <h2>2ITA</h2>
+    </div>
+    <div>
+        <img src="im3.jpg" alt="missing png" height="180" width="auto">
+    </div>
+    
+</section>
+<section class="yellow">
+    <div>
+        <h4>Legg til elev</h4>
+        <form>
+            <label for="fname">Navn:</label>
+            <br>
+            <input type="text" id="fname" name="fname" value="...">
+            <br>
+            <label for="lname">Etternavn:</label>
+            <br>
+            <input type="text" id="lname" name="lname" value="...">
+            <br>
+            <label for="Alder">Alder:</label>
+            <br>
+            <input type="text" id="Alder" name="Alder" value="...">
+        </form>
+    </div>
+    <div>
+        <h4>ElevListe</h4>
+        <table style="width: 100%;">
+            <tr>
+                <td>Navn</td>
+                <td>Etternavn</td>
+                <td>Alder</td>
+            </tr>
+            <tr>
+                <td>Ola</td>
+                <td>NordMann</td>
+                <td>17</td>
+            </tr>
+        </table>
+    </div>
+
+</section>
+
+</head>
+
+<body>
+    
+</body>
